@@ -1,0 +1,248 @@
+hr{
+    border-style: dotted none none;
+    border-color:lightgray;
+    border-width: 4px;
+    width: 5%;
+}
+body{
+    background-color: cornsilk;
+}
+.loca{
+    color:limegreen;
+}
+.head{
+    color:crimson;
+    text-shadow:darkorange 5px 5px 5px;
+}
+.back{
+    background-color:sandybrown;
+}
+.style{
+    margin-bottom: 10px;
+    margin-left: 650px;
+    margin-top: 10px;
+    padding: 1rem 2rem;
+    position: relative;
+    cursor: pointer;
+    border-radius: 3.75rem 3.75rem;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    border:1px solid black;
+    background-image: linear-gradient(180deg,rgb(53, 206, 198) 0%,white 100%);
+    box-shadow:0 1rem 1.25rem 0 rgb(57, 126, 128) inset;
+    font-style: italic;
+    color: mediumblue;
+}
+.style:hover{
+    background-image:linear-gradient(180deg,rgb(54, 151, 153) 0%,white 100%); ;
+    box-shadow:0 1rem 1.25rem 0 ,rgb(4, 172, 163) inset;
+}
+.btn{
+    padding: 1rem 2rem;
+    position: relative;
+    cursor: pointer;
+    border-radius: 3.75rem 3.75rem;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    border:1px solid black;
+    background-image: linear-gradient(180deg,rgb(231, 171, 176) 0%,white 100%);
+    box-shadow:0 1rem 1.25rem 0 rgb(253, 53, 63) inset;
+    font-style: italic;
+    color: rgb(46, 8, 8);
+}
+.btn:hover{
+    background-image: linear-gradient(180deg, rgb(253, 53, 63) 0%,white 100%);
+    box-shadow:0 1rem 1.25rem 0  rgb(223, 100, 110) inset;
+}
+.font{
+    font-size: 40px;
+    font-weight: 500px;
+    color: navy;
+    text-shadow: rgb(164, 172, 194) 5px 5px 5px;
+}
+.back1{
+background-image: url("b1.png");
+width:100%;
+height:100%;
+background-size: cover;
+
+}
+.style1{
+    font-size: 50px;
+    font-weight: 1000;
+    color: deeppink;
+    text-shadow:gray 5px 5px 5px;
+}
+.design{
+    font-size: 40px;
+    color: indigo;
+}
+.btn1{
+    margin-bottom: 10px;
+    margin-left: 650px;
+    margin-top: 300px;
+    padding: 1rem 2rem;
+    position: relative;
+    cursor: pointer;
+    border-radius: 3.75rem 3.75rem;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    border:1px solid black;
+    background-image: linear-gradient(180deg,rgb(236, 15, 34)  0%,white 100%);
+    box-shadow:0 1rem 1.25rem 0  rgb(155, 4, 37) inset;
+    font-style: italic;
+    color: rgb(52, 2, 56);
+}
+.btn2{
+    margin-left: 650px;
+    margin-top: 10px;
+    padding: 1rem 2rem;
+    position: relative;
+    cursor: pointer;
+    border-radius: 3.75rem 3.75rem;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    border:1px solid black;
+    background-image: linear-gradient(180deg,rgb(236, 15, 34) 0%,white 100%);
+    box-shadow:0 1rem 1.25rem 0 rgb(155, 4, 37) inset;
+    font-style: italic;
+    color: rgb(52, 2, 56);
+}
+.btn1:hover{
+    background-image: linear-gradient(180deg,rgb(155, 4, 37) 20%,white 80%);
+    box-shadow:0 1rem 1.25rem 0 ,rgb(236, 15, 34)inset;
+}
+.btn2:hover{
+    background-image: linear-gradient(180deg,rgb(155, 4, 37) 20%,white 80%);
+    box-shadow:0 1rem 1.25rem 0 ,rgb(236, 15, 34)inset;  
+}
+.design1{
+    font-weight: 400px;
+    font-size: 2rem;
+    font-style: initial;
+}
+.back2{
+    background-image: url("pencil.jpeg");
+    width:100%;
+    height:100%;
+    background-size: cover;
+    }
+    .style2{
+        
+    font-weight: 600px;
+    font-size: 40px;
+    font-style: oblique 10deg;
+    color: rgb(109, 40, 122);
+    text-shadow: rgb(125, 136, 161) 5px 5px 5px;
+    }
+   
+    .form-box{
+        background-color: rgba(0,0,0,0.3);
+        margin:auto auto;
+        padding-top: 100px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgb(54, 52, 52);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width:450px;
+        height: 400px;
+    }
+    
+    .form-box .header-text {
+        font-size: 32px;
+        font-weight: 600;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .form-box input {
+        margin: 10px 0px;
+        border: none;
+        padding: 10px;
+        /*border-radius: 5px; */
+        width: 100%;
+        font-size: 18px;
+        font-family: poppins;
+    }
+    
+    .form-box label {
+        position: relative;
+        margin-left: 5px;
+        margin-right: 10px;
+        top: 5px;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+    .form-box label:before {
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border-radius: 5px;
+        position: absolute;
+        left: 0;
+        bottom: 1px;
+        background-color: #ddd;
+    }
+    
+    .form-box span {
+        font-size: 14px;
+    }
+    .form-box button {
+        background-color: deepskyblue;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+        padding: 10px;
+        margin: 20px 0px;
+    }
+    span a {
+        color: #BBB;
+    }
+    .btn3 {
+        cursor: pointer;
+        position: relative;
+        padding: 1rem 2rem;
+        border-radius: 3.75rem;
+        line-height: 2.5rem;
+        font-size: 2rem;
+        font-weight: 600;
+    
+        border: 1px solid black;
+        background-image: linear-gradient(-180deg, deepskyblue 0%, white 100%); box-shadow: 0 1rem 1.25rem 0 #134d50 inset;
+    }
+    .btn3:hover
+    {
+        background-image: linear-gradient(-180deg, white 0%, deepskyblue 100%); box-shadow: 0 1rem 1.25rem 0 #134d50 inset;
+    }
+    .style3{
+        cursor: pointer;
+        position: relative;
+        padding: 1rem 2rem;
+        border-radius: 3.75rem;
+        line-height: 2.5rem;
+        font-size: 2rem;
+        font-weight: 600;
+    
+        border: 1px solid black;
+        background-image: linear-gradient(-180deg, rgb(172, 16, 42) 0%, white 100%); box-shadow: 0 1rem 1.25rem 0 #5f2e06 inset;
+    }
+    .style3:hover
+    {
+        background-image: linear-gradient(-180deg, white 0%, rgba(190, 13, 28, 0.932) 100%); box-shadow: 0 1rem 1.25rem 0 #442d0c inset;
+    }
+        
